@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Createx 2026 — Kaleth Steven Durán Cuenca</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="logo" href="#">Createx</a>
+    <span class="nav-ficha">SENA · Ficha 328846</span>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-txt">
+      <p class="hero-eyebrow">Corferias · Bogotá · 2026</p>
+      <h1 class="hero-h1">Feria de<br>Moda y<br>Textiles</h1>
+      <p class="hero-p">
+        Documentación de la experiencia vivida en Createx 2026,
+        la feria más importante del sector textil y de confección en Colombia.
+      </p>
+      <div class="hero-firma">
+        <div class="hero-nombre">Kaleth Steven Durán Cuenca</div>
+        <div class="hero-ficha">SENA · Ficha 328846</div>
+      </div>
+    </div>
+    <div class="hero-foto">
+      <img src="img/img4.jpg" alt="Auditorio Createx 2026">
+    </div>
+  </section>
+
+  <!-- BLOQUE 1 -->
+  <div class="bloque" onclick="abrirLb(this)">
+    <div class="bloque-foto">
+      <img src="img/img1.jpg" alt="Pasillo principal con stands de empresas">
+    </div>
+    <div class="bloque-txt">
+      <p class="bloque-num">01 — Stands y empresas</p>
+      <h2 class="bloque-h2">Exhibición de marcas</h2>
+      <p class="bloque-p">
+        Más de 50 empresas bogotanas mostraron sus productos: telas, acabados
+        y colecciones listas para el mercado, respaldadas por el programa
+        Bogotá Corazón Productivo de la Secretaría de Desarrollo Económico.
+      </p>
+    </div>
+  </div>
+
+  <!-- BLOQUE 2 -->
+  <div class="bloque invertir" onclick="abrirLb(this)">
+    <div class="bloque-foto">
+      <img src="img/img6.jpg" alt="Conferencia en el escenario principal de Createx">
+    </div>
+    <div class="bloque-txt">
+      <p class="bloque-num">02 — Conferencias</p>
+      <h2 class="bloque-h2">Conocimiento y tendencias</h2>
+      <p class="bloque-p">
+        Expertos del sector textil compartieron estrategias, tendencias e
+        innovaciones para emprendedores y empresas del mundo de la moda colombiana.
+      </p>
+    </div>
+  </div>
+
+  <!-- BLOQUE 3 -->
+  <div class="bloque" onclick="abrirLb(this)">
+    <div class="bloque-foto">
+      <img src="img/img7.jpg" alt="Pasarela de moda Createx 2026">
+    </div>
+    <div class="bloque-txt">
+      <p class="bloque-num">03 — Pasarela</p>
+      <h2 class="bloque-h2">Diseñadores en vivo</h2>
+      <p class="bloque-p">
+        Diseñadores colombianos presentaron sus colecciones en pasarela,
+        demostrando el nivel y la creatividad del talento nacional en
+        confección y diseño de autor.
+      </p>
+    </div>
+  </div>
+
+  <!-- BLOQUE 4 -->
+  <div class="bloque invertir" onclick="abrirLb(this)">
+    <div class="bloque-foto">
+      <img src="img/img2.jpg" alt="Máquinas de hilos industriales de colores">
+    </div>
+    <div class="bloque-txt">
+      <p class="bloque-num">04 — Maquinaria</p>
+      <h2 class="bloque-h2">Tecnología textil</h2>
+      <p class="bloque-p">
+        Lo último en bordadoras industriales, máquinas de costura de alta
+        precisión y equipos de sublimación aplicados al sector de confección nacional.
+      </p>
+    </div>
+  </div>
+
+  <!-- BLOQUE 5 -->
+  <div class="bloque" onclick="abrirLb(this)">
+    <div class="bloque-foto">
+      <img src="img/img3.jpg" alt="Máquina de bordado digital Urban">
+    </div>
+    <div class="bloque-txt">
+      <p class="bloque-num">05 — Bordado digital</p>
+      <h2 class="bloque-h2">Diseño y personalización</h2>
+      <p class="bloque-p">
+        Las bordadoras digitales de última generación permitieron ver en
+        tiempo real la personalización de prendas con precisión milimétrica.
+      </p>
+    </div>
+  </div>
+
+  <!-- BLOQUE 6 -->
+  <div class="bloque invertir" onclick="abrirLb(this)">
+    <div class="bloque-foto">
+      <img src="img/img9.jpg" alt="Stand de diseñadora con ropa colorida artesanal">
+    </div>
+    <div class="bloque-txt">
+      <p class="bloque-num">06 — Diseñadores independientes</p>
+      <h2 class="bloque-h2">Creatividad artesanal</h2>
+      <p class="bloque-p">
+        Emprendedores y diseñadores independientes mostraron colecciones
+        llenas de color y trabajo artesanal, evidenciando la diversidad
+        creativa del sector textil en Colombia.
+      </p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>
+      <div class="footer-nombre">Kaleth Steven Durán Cuenca</div>
+      <div class="footer-sub">SENA · Ficha 328846</div>
+    </div>
+    <div class="footer-evento">Createx 2026 · Corferias · Bogotá, Colombia</div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lb" id="lb" onclick="cerrarLb()">
+    <button class="lb-x" onclick="cerrarLb()">✕</button>
+    <img id="lb-img" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
